@@ -26,11 +26,21 @@ jobs:
           submodules: recursive
           fetch-depth: 0
 
+      - name: Initialize and update submodules
+        run: |
+          git submodule update --init --recursive
+          git submodule status
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
           extended: true
+
+      - name: Verify theme installation
+        run: |
+          ls -la themes/
+          ls -la themes/blowfish/
 
       - name: Build Hugo site
         run: hugo --minify
