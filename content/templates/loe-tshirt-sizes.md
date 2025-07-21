@@ -1,4 +1,4 @@
-## Level Of Effort – T-shirt Sizing Guide
+# Level Of Effort – T-shirt Sizing Guide
 
 | T-shirt Size | Rough Estimate Range for a squad (2–3 FTEs) |
 | ------------ | ------------------------------------------- |
