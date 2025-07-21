@@ -55,7 +55,7 @@ For detailed configuration options and customization, refer to the [Blowfish doc
 ### Building for Production
 
 ```bash
-hugo --minify
+hugo
 ```
 
 The built site will be in the `public/` directory.
