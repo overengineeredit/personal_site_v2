@@ -1,5 +1,5 @@
 # Multi-stage build
-FROM hugomods/hugo:exts as builder
+FROM hugomods/hugo:exts AS builder
 
 # Set working directory
 WORKDIR /src
@@ -8,7 +8,7 @@ WORKDIR /src
 COPY . .
 
 # Build the Hugo site
-RUN hugo --minify
+RUN hugo
 
 # Production stage - use nginx to serve the static files
 FROM nginx:alpine
