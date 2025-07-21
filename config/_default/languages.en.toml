@@ -1,0 +1,22 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "OverEngineeredIt"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+description = "An engineering leader passionate about building and scaling high-performing teams and platforms."
+logo = "bluequack_logo_32x32.png"
+
+  [params.author]
+  links = [ ]
+
+["params.author"]
+name = "Peenak Inamdar"
+headline = "Software developer, maker, manager with a passion for learning, developer experience, and experimentation."
+bio = "An engineering leader who's passionate about building and scaling high-performing teams and platforms."
+image = "headshot.jpg"

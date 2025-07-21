@@ -1,0 +1,41 @@
+[[main]]
+none = "none"
+
+[[main]]
+name = "About Me"
+pageRef = "about-me"
+identifier = "jHnF3Ij3qX"
+weight = 1
+
+[[main]]
+name = "Articles"
+pageRef = "articles"
+identifier = "articles"
+weight = 2
+
+[[main]]
+name = "Projects"
+pageRef = "github"
+identifier = "github"
+weight = 3
+
+[[main]]
+pre = "medium"
+url = "https://overengineeredit.medium.com/"
+identifier = "5DGiYSs2pK"
+weight = 9_999
+
+[[main]]
+pre = "linkedin"
+url = "https://www.linkedin.com/in/peenakinamdar"
+identifier = "vD7ilO7QcV"
+weight = 9_999
+
+[[main]]
+pre = "github"
+url = "https://github.com/overengineeredit"
+identifier = "HlBmjqenP2"
+weight = 9_999
+
+[[footer]]
+none = "none"
