@@ -60,6 +60,45 @@ hugo --minify
 
 The built site will be in the `public/` directory.
 
+## Docker Deployment
+
+### Building the Docker Image Locally
+
+```bash
+docker build -t personal-site .
+```
+
+### Running with Docker
+
+```bash
+docker run -p 8080:80 personal-site
+```
+
+### Using Docker Compose
+
+```bash
+docker-compose up -d
+```
+
+The site will be available at `http://localhost:8080`.
+
+## GitHub Actions CI/CD
+
+This repository includes GitHub Actions that will:
+
+- Build the Hugo site automatically on pushes to `main`
+- Create Docker images tagged with branch names and git tags
+- Push images to GitHub Container Registry (ghcr.io)
+
+### Using Published Docker Images
+
+Pull and run the latest image:
+
+```bash
+docker pull ghcr.io/overengineeredit/personal_site_v2:latest
+docker run -p 8080:80 ghcr.io/overengineeredit/personal_site_v2:latest
+```
+
 ## Configuration
 
 The site configuration is split across multiple files in the `config/_default/` directory:

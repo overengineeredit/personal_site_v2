@@ -1,0 +1,51 @@
+# Git
+.git
+.gitignore
+.gitmodules
+
+# Documentation
+README.md
+*.md
+
+# Hugo build artifacts
+public/
+resources/
+
+# Node modules (if any)
+node_modules/
+npm-debug.log*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Environment files
+.env*
+
+# GitHub Actions
+.github/
+
+# Docker
+Dockerfile*
+docker-compose*
+
+# Backup files
+*.bak
+*.backup
