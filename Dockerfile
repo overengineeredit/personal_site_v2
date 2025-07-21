@@ -1,13 +1,17 @@
 # Multi-stage build
 FROM hugomods/hugo:exts as builder
 
+# Accept GitHub token as build argument
+ARG GITHUB_TOKEN
+
 # Set working directory
 WORKDIR /src
 
 # Copy source code
 COPY . .
 
-# Build the Hugo site
+# Build the Hugo site with GitHub token
+ENV HUGO_PARAMS_GITHUB_TOKEN=${GITHUB_TOKEN}
 RUN hugo --minify
 
 # Production stage - use nginx to serve the static files

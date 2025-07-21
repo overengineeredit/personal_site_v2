@@ -43,6 +43,8 @@ jobs:
           ls -la themes/blowfish/
 
       - name: Build Hugo site
+        env:
+          HUGO_PARAMS_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: hugo --minify
 
       - name: Set up Docker Buildx
@@ -76,3 +78,5 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
+          build-args: |
+            GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }}
