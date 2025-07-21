@@ -10,7 +10,7 @@ This section contains all my current public projects of note, you can always che
 An experiment to learn how to use a RAG approach of enriching results from an locally running LLM with tailored content. Also gives an example of how to load in content into a vector db, ChromaDB.
 
 {{<
-    github
+    github-safe
     repo="overengineeredit/startrek-rag-llm"
     showThumbnail=false
 >}}
@@ -20,7 +20,7 @@ An experiment to learn how to use a RAG approach of enriching results from an lo
 This website code base was a foray into learning the basics of "vibe coding". My experience with this is written up in a medium article: [My Experience Vibe Coding](https://overengineeredit.medium.com/my-experience-vibe-coding-bd1dbf110f6f).
 
 {{<
-    github
+    github-safe
     repo="overengineeredit/personal_site"
     showThumbnail=false
 >}}
