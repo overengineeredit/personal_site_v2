@@ -1,10 +1,21 @@
-# TEMPLATE – BCDR Document – TITLE: {YY}'Q{1-4} BCDR {Table Top Exercise | Full Recovery Exercise} – {System Being Tested}
+---
+title: "Disaster Recovery Exercise Prep and Post Notes"
+draft: false
+summary: "A Project or initiative brief is the second step an idea takes toward becoming a product. The first is to have an idea."
+# image: "/images/template-previews/awesome-template.jpg" # Optional: path to a preview image
+# tags: ["web", "frontend", "html"] # Example tags
+# categories: ["templates"] # Example category
+weight: 5
+---
+
+
 
 ---
 
-| Field                     | Value                                                   |
+| Field                     | Value                                                    |
 |---------------------------|----------------------------------------------------------|
-| Application               | {System being tested}                                   |
+| Exercise Window           | {YY}'Q{1-4}                                              |
+| Application               | {System being tested}                                    |
 | Service, or Business Unit |                                                          |
 | Exercise Leader           |                                                          |
 | Response Team Members     |                                                          |
