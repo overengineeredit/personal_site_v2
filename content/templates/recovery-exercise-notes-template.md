@@ -1,6 +1,6 @@
 ---
 title: "Disaster Recovery Exercise Prep and Post Notes"
-draft: false
+draft: true
 summary: "A Project or initiative brief is the second step an idea takes toward becoming a product. The first is to have an idea."
 # image: "/images/template-previews/awesome-template.jpg" # Optional: path to a preview image
 # tags: ["web", "frontend", "html"] # Example tags
