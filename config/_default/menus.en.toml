@@ -20,6 +20,13 @@ identifier = "github"
 weight = 3
 
 [[main]]
+name = "Templates"
+pageRef = "templates"
+identifier = "templates"
+weight = 4
+
+
+[[main]]
 pre = "medium"
 url = "https://overengineeredit.medium.com/"
 identifier = "5DGiYSs2pK"

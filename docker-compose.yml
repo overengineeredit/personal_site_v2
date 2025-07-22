@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   personal-site:
-    build: .
+    image: ghcr.io/overengineeredit/personal_site_v2:v0.1.7
     ports:
       - "8080:80"
     restart: unless-stopped

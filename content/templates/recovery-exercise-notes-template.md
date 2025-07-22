@@ -16,14 +16,8 @@
 
 ## Assumptions, Preparations, and Other Notes
 
----
-
 ## Actions Taken
 
----
-
 ## Unexpected Challenges and Limiting Factors
-
----
 
 ## Lessons Learned and Continuous Improvement Plans
