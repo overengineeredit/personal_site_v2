@@ -7,7 +7,7 @@ This section contains all my current public projects of note, you can always che
 
 ## Local StarTrek RAG LLM Workflow (Python, ChromaDB, and Ollama)
 
-An experiment to learn how to use a RAG approach of enriching results from an locally running LLM with tailored content. Also gives an example of how to load in content into a vector db, ChromaDB.
+An experiment to learn how to use a RAG approach of enriching results from an locally running LLM with tailored content. Also gives an example of how to load in content into a vector db, ChromaDB. I've written up [more about the project](https://overengineeredit.medium.com/a-local-rag-on-a-raspi-439496796324) on Medium
 
 {{<
     github
